@@ -18,14 +18,24 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-
-
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar">
+        <h5>Sign Up</h5>
+        <h6>Join now for free ride credits </h6>
+      </div>
+    </nav>
     <div class="row">
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="" id="first_name" type="text" class="validate">
-     <label for="last_name">Last Name</label>
+          <input id="first_name" type="text" class="validate">
+
+          <label for="last_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
         </div>
       </div>
       <div class="row">
@@ -34,8 +44,8 @@
           <label for="email">Email</label>
         </div>
       </div>
-        <a class="waves-effect waves-light btn-large">Next</a>
-        
+       <p class="terminos"><input type="checkbox" name="" value=""> I agree to <a href="#">lyft´s Terms of Service</a></p>
+
+      <a id="btn" class="waves-effect waves-light btn-large">Next</a>
     
 </html>
-       
