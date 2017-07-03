@@ -1,4 +1,4 @@
-unction caracteresCorreoValido(email, div){
+function caracteresCorreoValido(email, div){
     console.log(email);
     //var email = $(email).val();
     var caract = new RegExp(/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/);
@@ -13,4 +13,3 @@ unction caracteresCorreoValido(email, div){
         return true;
     }
 }
-
